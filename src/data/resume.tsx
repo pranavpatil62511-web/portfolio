@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "Hey I am Pranav Patil,I'm a software engineer with a strong background in full-stack and mobile app development",
   summary:
-    `I'm a passionate Software Engineer. I've worked in 2+ startups where I collaborated directly with founders, leading and shipping end-to-end projects independently. My experience includes building high-impact applications, improving user engagement, and optimizing backend performance. I've developed projects using ${MOBILE_FRAMEWORK}, Next.js, Redux, and more. Alongside my tech journey, I also pursue farming. Currently, I'm pursuing an MCA degree while continuing to explore new technologies and remain curious about learning. Always eager to build, learn, and innovate!`,
+    `I'm a 22-year-old passionate Software Engineer. I've worked in 3+ startups where I collaborated directly with founders, leading and shipping end-to-end projects independently. My experience includes building high-impact applications, improving user engagement, and optimizing backend performance. I've developed projects using ${MOBILE_FRAMEWORK}, Next.js, Redux, and more. Alongside my tech journey, I also pursue farming. I continue to explore new technologies and remain curious about learning. Always eager to build, learn, and innovate!`,
   avatarUrl: "/meee.jpg",
   skills: [
     "React",
@@ -178,7 +178,7 @@ export const DATA = {
       end: "2024",
     },
   ],
-  projects: [
+  webProjects: [
     {
       title: "SatyaCheck AI",
       href: "https://satya-check.vercel.app/",
@@ -266,9 +266,188 @@ export const DATA = {
         "https://res.cloudinary.com/dqi42qbcr/video/upload/v1739804360/Untitled_video_-_Made_with_Clipchamp_8_l53tvh.mp4",
     },
     {
+      title: "asktocmd CLI",
+      href: "https://www.npmjs.com/package/asktocmd",
+      dates: "November 2024 - December 2024",
+      active: true,
+      description:
+        "Did you forget your command-line commands? Don't worry! Now you can directly ask asktocmd, your AI-powered CLI helper. Ask about any command, operation, or CLI-related query, and get instant, intelligent responses powered by Google's Gemini AI.",
+      technologies: ["Javascript", "Typescript", "Node.js", "Gemini"],
+      links: [
+        {
+          type: "Package",
+          href: "https://www.npmjs.com/package/asktocmd",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://res.cloudinary.com/dqi42qbcr/video/upload/v1740310555/Untitled_video_-_Made_with_Clipchamp_10_pidjkk.mp4",
+    },
+  ],
+  appProjects: [
+    {
+      title: "BiorBank",
+      href: "https://play.google.com/store/apps/details?id=com.app.biorbankapp",
+      dates: "2025",
+      users: "500+ users",
+      active: true,
+      description:
+        "BiorBank is a next-generation digital banking experience, available on both Android (BiorBank) and iOS (BiorVault). It offers secure account management, seamless transactions, and a modern interface designed for everyday finance.",
+      technologies: [
+        MOBILE_FRAMEWORK,
+        "Kotlin",
+        "Swift",
+        MOBILE_LANGUAGE,
+        "Android",
+        "iOS",
+      ],
+      links: [
+        {
+          type: "Android",
+          href: "https://play.google.com/store/apps/details?id=com.app.biorbankapp&hl=en",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "iOS",
+          href: "https://apps.apple.com/us/app/biorvault/id6743424304",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://biorlabs.com/static/media/biorvault%20launch.1baa8eb20b1d62a32ad5.mp4",
+    },
+    {
+      title: "Ziti Caterer",
+      href: "https://play.google.com/store/apps/details?id=com.adgnitio.ziticaterer",
+      dates: "2024",
+      users: "100+ users",
+      active: true,
+      description:
+        "Ziti Caterer empowers catering businesses to manage orders, menus, and customer interactions on the go, streamlining operations for modern caterers.",
+      technologies: [
+        MOBILE_FRAMEWORK,
+        "Kotlin",
+        MOBILE_LANGUAGE,
+        "Android",
+      ],
+      links: [
+        {
+          type: "Android",
+          href: "https://play.google.com/store/apps/details?id=com.adgnitio.ziticaterer&hl=en",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://play-lh.googleusercontent.com/hy8ZZEZmDalm2il_dI_vLYRS7ouYOHmoYziCJThmE9bYwmq-RaoJghpgD1QQNwdGRU0=w526-h296",
+      video: "",
+    },
+    {
+      title: "Ziti Workforce",
+      href: "https://play.google.com/store/apps/details?id=com.adgnitio.zitiworkforce",
+      dates: "2024",
+      users: "500+ users",
+      active: true,
+      description:
+        "Ziti Workforce helps field employees track attendance, tasks, and assignments in real time, making day-to-day workforce management effortless.",
+      technologies: [
+        MOBILE_FRAMEWORK,
+        "Kotlin",
+        MOBILE_LANGUAGE,
+        "Android",
+      ],
+      links: [
+        {
+          type: "Android",
+          href: "https://play.google.com/store/apps/details?id=com.adgnitio.zitiworkforce&hl=en",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://play-lh.googleusercontent.com/BprO2jiqTbBQXdo5Gay1V3cGfww3CH6p8AxvB2CSUSx4aSI235b1OgPYkli4GVetRQ=w526-h296",
+      video: "",
+    },
+    {
+      title: "Ziti Workforce Organizer",
+      href: "https://play.google.com/store/apps/details?id=com.adgnitio.zitiworkforceorganizer",
+      dates: "2024",
+      users: "100+ users",
+      active: true,
+      description:
+        "Ziti Workforce Organizer gives managers a unified dashboard to coordinate teams, assign tasks, and monitor performance across distributed workforces.",
+      technologies: [
+        MOBILE_FRAMEWORK,
+        "Kotlin",
+        MOBILE_LANGUAGE,
+        "Android",
+      ],
+      links: [
+        {
+          type: "Android",
+          href: "https://play.google.com/store/apps/details?id=com.adgnitio.zitiworkforceorganizer&hl=en",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://play-lh.googleusercontent.com/Ud9v-ajG3URkL1m8_4I5N1I6IFlnkecZLY_Z8r7Oloqw2ard_o4KLdWJZcmhIT-D3Q=w526-h296",
+      video: "",
+    },
+    {
+      title: "Ziti Channel Partner",
+      href: "https://play.google.com/store/apps/details?id=com.adgnito.zitichannelpartner",
+      dates: "2024",
+      users: "100+ users",
+      active: true,
+      description:
+        "Ziti Channel Partner enables partners to manage leads, track commissions, and grow their business through a seamless mobile experience.",
+      technologies: [
+        MOBILE_FRAMEWORK,
+        "Kotlin",
+        MOBILE_LANGUAGE,
+        "Android",
+      ],
+      links: [
+        {
+          type: "Android",
+          href: "https://play.google.com/store/apps/details?id=com.adgnito.zitichannelpartner&hl=en",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://play-lh.googleusercontent.com/UXxxuiJU4LJaWBmMMIZwcMiPym899IOzwFRajQF6jhC7f5PG4RHtPVdv5y6nqYn58WY=w526-h296",
+      video: "",
+    },
+    {
+      title: "Edvin",
+      href: "https://play.google.com/store/apps/details?id=co.edvin.ufxxy",
+      dates: "2024",
+      users: "1,000+ users",
+      active: true,
+      description:
+        "Edvin is a learning app that delivers interactive lessons and personalized study experiences, helping students learn better on the go.",
+      technologies: [
+        MOBILE_FRAMEWORK,
+        "Kotlin",
+        MOBILE_LANGUAGE,
+        "Android",
+      ],
+      links: [
+        {
+          type: "Android",
+          href: "https://play.google.com/store/apps/details?id=co.edvin.ufxxy",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://play-lh.googleusercontent.com/HjwNiBHKt5C1WOfZTEHIG9YLvmpG6kDfgU7nUJPIlcv16AAjKDY3QL6H9TK55iLglX0=w526-h296",
+      video: "",
+    },
+    {
       title: "Scroll Guard",
       href: "https://play.google.com/store/apps/details?id=com.scrollguard.app",
       dates: "Nov 2024 - January 2025",
+      users: "1,000+ users",
       active: true,
       description:
         "Scroll Guard helps you manage your social media time by limiting your usage. Utilizing Android's Accessibility Service, we aim to free you from endless scrolling, allowing you to focus on what really matters.",
@@ -294,6 +473,7 @@ export const DATA = {
       title: "Togethrly",
       href: "https://llm.report",
       dates: "December 2024 - January 2025",
+      users: "500+ users",
       active: true,
       description:
         "We believe strong relationships are built on connection, laughter, and shared experiences. That's why we created Togethrly - an app designed to help couples deepen their bond. With playful quizzes, shared widget, thought-provoking prompts and a more engaging and fun video calling experience.",
@@ -317,25 +497,6 @@ export const DATA = {
       image: "",
       video:
         "https://res.cloudinary.com/dqi42qbcr/video/upload/v1740306702/Untitled_video_-_Made_with_Clipchamp_9_lzakqc.mp4",
-    },
-    {
-      title: "asktocmd CLI",
-      href: "https://www.npmjs.com/package/asktocmd",
-      dates: "November 2024 - December 2024",
-      active: true,
-      description:
-        "Did you forget your command-line commands? Don't worry! Now you can directly ask asktocmd, your AI-powered CLI helper. Ask about any command, operation, or CLI-related query, and get instant, intelligent responses powered by Google's Gemini AI.",
-      technologies: ["Javascript", "Typescript", "Node.js", "Gemini"],
-      links: [
-        {
-          type: "Package",
-          href: "https://www.npmjs.com/package/asktocmd",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://res.cloudinary.com/dqi42qbcr/video/upload/v1740310555/Untitled_video_-_Made_with_Clipchamp_10_pidjkk.mp4",
     },
   ],
   hackathons: [
