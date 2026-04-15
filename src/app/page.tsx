@@ -130,25 +130,62 @@ export default function Page() {
               </div>
             </div>
           </BlurFade>
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-            {DATA.projects.map((project, id) => (
-              <BlurFade
-                key={project.title}
-                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
-              >
-                <ProjectCard
-                  href={project.href}
-                  key={project.title}
-                  title={project.title}
-                  description={project.description}
-                  dates={project.dates}
-                  tags={project.technologies}
-                  image={project.image}
-                  video={project.video}
-                  links={project.links}
-                />
+          <div className="space-y-8">
+            <div className="space-y-4">
+              <BlurFade delay={BLUR_FADE_DELAY * 12}>
+                <h3 className="text-2xl font-bold tracking-tight text-center">
+                  Web
+                </h3>
               </BlurFade>
-            ))}
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+                {DATA.webProjects.map((project, id) => (
+                  <BlurFade
+                    key={project.title}
+                    delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+                  >
+                    <ProjectCard
+                      href={project.href}
+                      key={project.title}
+                      title={project.title}
+                      description={project.description}
+                      dates={project.dates}
+                      tags={project.technologies}
+                      image={project.image}
+                      video={project.video}
+                      links={project.links}
+                    />
+                  </BlurFade>
+                ))}
+              </div>
+            </div>
+            <div className="space-y-4">
+              <BlurFade delay={BLUR_FADE_DELAY * 12}>
+                <h3 className="text-2xl font-bold tracking-tight text-center">
+                  Apps
+                </h3>
+              </BlurFade>
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+                {DATA.appProjects.map((project, id) => (
+                  <BlurFade
+                    key={project.title}
+                    delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+                  >
+                    <ProjectCard
+                      href={project.href}
+                      key={project.title}
+                      title={project.title}
+                      description={project.description}
+                      dates={project.dates}
+                      users={project.users}
+                      tags={project.technologies}
+                      image={project.image}
+                      video={project.video}
+                      links={project.links}
+                    />
+                  </BlurFade>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
