@@ -290,7 +290,7 @@ export const DATA = {
       title: "BiorBank",
       href: "https://play.google.com/store/apps/details?id=com.app.biorbankapp",
       dates: "2025",
-      users: "500+ users",
+      users: "100+ downloads",
       active: true,
       description:
         "BiorBank is a next-generation digital banking experience, available on both Android (BiorBank) and iOS (BiorVault). It offers secure account management, seamless transactions, and a modern interface designed for everyday finance.",
@@ -315,14 +315,13 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "https://biorlabs.com/static/media/biorvault%20launch.1baa8eb20b1d62a32ad5.mp4",
+      video: "/biorvault-launch.mp4",
     },
     {
       title: "Ziti Caterer",
       href: "https://play.google.com/store/apps/details?id=com.adgnitio.ziticaterer",
       dates: "2024",
-      users: "100+ users",
+      users: "1,000+ downloads",
       active: true,
       description:
         "Ziti Caterer empowers catering businesses to manage orders, menus, and customer interactions on the go, streamlining operations for modern caterers.",
@@ -339,15 +338,19 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image:
-        "https://play-lh.googleusercontent.com/hy8ZZEZmDalm2il_dI_vLYRS7ouYOHmoYziCJThmE9bYwmq-RaoJghpgD1QQNwdGRU0=w526-h296",
+      image: "",
       video: "",
+      screenshots: [
+        "https://play-lh.googleusercontent.com/16xh0NrW6L76r5ztzqp_nRUN1frzw2rc0T2JXxWoFi3SfVvel8Wy_JWCANM-uVCfhvY=h500",
+        "https://play-lh.googleusercontent.com/7XspuSNPcs0XZnZCYAKzkOvQZpXy0E-H494x79oOeDR31Rf5X1Pe_lWkIwtZBVoGsuwz=h500",
+        "https://play-lh.googleusercontent.com/A13RiQY05tuFgezcMeksn79Nr9NCzxZcFNOUBX-OtwWqNJxagGKnIoTqiNDACfa9vww=h500",
+      ],
     },
     {
       title: "Ziti Workforce",
       href: "https://play.google.com/store/apps/details?id=com.adgnitio.zitiworkforce",
       dates: "2024",
-      users: "500+ users",
+      users: "10+ downloads",
       active: true,
       description:
         "Ziti Workforce helps field employees track attendance, tasks, and assignments in real time, making day-to-day workforce management effortless.",
@@ -364,15 +367,19 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image:
-        "https://play-lh.googleusercontent.com/BprO2jiqTbBQXdo5Gay1V3cGfww3CH6p8AxvB2CSUSx4aSI235b1OgPYkli4GVetRQ=w526-h296",
+      image: "",
       video: "",
+      screenshots: [
+        "https://play-lh.googleusercontent.com/BprO2jiqTbBQXdo5Gay1V3cGfww3CH6p8AxvB2CSUSx4aSI235b1OgPYkli4GVetRQ=h500",
+        "https://play-lh.googleusercontent.com/4hQJlji--yraJjTNGJ9XlW-O6X8hxQN1yyhw56DUFk79oyqRyJTAqrBDZJHIToxmWayp=h500",
+        "https://play-lh.googleusercontent.com/AUDOA-ERj42f-npESljH6KklavnB-dgjjeaHxZCDIQWRaTJ4QBDDaqbS7XzWWgVlviIV=h500",
+      ],
     },
     {
       title: "Ziti Workforce Organizer",
       href: "https://play.google.com/store/apps/details?id=com.adgnitio.zitiworkforceorganizer",
       dates: "2024",
-      users: "100+ users",
+      users: "5+ downloads",
       active: true,
       description:
         "Ziti Workforce Organizer gives managers a unified dashboard to coordinate teams, assign tasks, and monitor performance across distributed workforces.",
@@ -389,15 +396,19 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image:
-        "https://play-lh.googleusercontent.com/Ud9v-ajG3URkL1m8_4I5N1I6IFlnkecZLY_Z8r7Oloqw2ard_o4KLdWJZcmhIT-D3Q=w526-h296",
+      image: "",
       video: "",
+      screenshots: [
+        "https://play-lh.googleusercontent.com/Ud9v-ajG3URkL1m8_4I5N1I6IFlnkecZLY_Z8r7Oloqw2ard_o4KLdWJZcmhIT-D3Q=h500",
+        "https://play-lh.googleusercontent.com/08M6uRkmTVHSVxmP84THLAHr5Dj6XPiIevMUs-fQMavL0tO7lVUrZkrB80Hck6j5Wo4=h500",
+        "https://play-lh.googleusercontent.com/8nfOowl11zlozlpava9NAd0-_oE-iURNaGvHyj6jT04uFkoxQC7RF8A9abTmIBnFiQ=h500",
+      ],
     },
     {
       title: "Ziti Channel Partner",
       href: "https://play.google.com/store/apps/details?id=com.adgnito.zitichannelpartner",
       dates: "2024",
-      users: "100+ users",
+      users: "100+ downloads",
       active: true,
       description:
         "Ziti Channel Partner enables partners to manage leads, track commissions, and grow their business through a seamless mobile experience.",
@@ -414,15 +425,19 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image:
-        "https://play-lh.googleusercontent.com/UXxxuiJU4LJaWBmMMIZwcMiPym899IOzwFRajQF6jhC7f5PG4RHtPVdv5y6nqYn58WY=w526-h296",
+      image: "",
       video: "",
+      screenshots: [
+        "https://play-lh.googleusercontent.com/UXxxuiJU4LJaWBmMMIZwcMiPym899IOzwFRajQF6jhC7f5PG4RHtPVdv5y6nqYn58WY=h500",
+        "https://play-lh.googleusercontent.com/DtLMpn8f73v9gLwtQgJYFqWjyGatBSUbF_2ywBSPSGZ6GF_3WibXcGb6F7sK7fnAJ1c=h500",
+        "https://play-lh.googleusercontent.com/HS0Oy2NRp78FqSj40-AoiBwi6K3ybjBlYuwQRmslsM7Hc9NeNwXaurZycoyNgyYT2w=h500",
+      ],
     },
     {
       title: "Edvin",
       href: "https://play.google.com/store/apps/details?id=co.edvin.ufxxy",
       dates: "2024",
-      users: "1,000+ users",
+      users: "10,000+ downloads",
       active: true,
       description:
         "Edvin is a learning app that delivers interactive lessons and personalized study experiences, helping students learn better on the go.",
@@ -439,15 +454,19 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image:
-        "https://play-lh.googleusercontent.com/HjwNiBHKt5C1WOfZTEHIG9YLvmpG6kDfgU7nUJPIlcv16AAjKDY3QL6H9TK55iLglX0=w526-h296",
+      image: "",
       video: "",
+      screenshots: [
+        "https://play-lh.googleusercontent.com/HjwNiBHKt5C1WOfZTEHIG9YLvmpG6kDfgU7nUJPIlcv16AAjKDY3QL6H9TK55iLglX0=h500",
+        "https://play-lh.googleusercontent.com/64CsGFxWC4Pj9Ogc4TknwsqMgGr0saQHkcATXuWQm_rcc7-f5ZLhj2u29_ezIbCod5A5=h500",
+        "https://play-lh.googleusercontent.com/FkAr7K0xYNu5h25uBhgsSl-sHzg1X7RWyOQR10wbrQcPRN3TEsevLCZyIEwQc3SvdEc=h500",
+      ],
     },
     {
       title: "Scroll Guard",
       href: "https://play.google.com/store/apps/details?id=com.scrollguard.app",
       dates: "Nov 2024 - January 2025",
-      users: "1,000+ users",
+      users: "100+ downloads",
       active: true,
       description:
         "Scroll Guard helps you manage your social media time by limiting your usage. Utilizing Android's Accessibility Service, we aim to free you from endless scrolling, allowing you to focus on what really matters.",
@@ -473,7 +492,7 @@ export const DATA = {
       title: "Togethrly",
       href: "https://llm.report",
       dates: "December 2024 - January 2025",
-      users: "500+ users",
+      users: "100+ downloads",
       active: true,
       description:
         "We believe strong relationships are built on connection, laughter, and shared experiences. That's why we created Togethrly - an app designed to help couples deepen their bond. With playful quizzes, shared widget, thought-provoking prompts and a more engaging and fun video calling experience.",
