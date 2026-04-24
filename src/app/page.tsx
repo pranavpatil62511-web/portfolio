@@ -180,6 +180,12 @@ export default function Page() {
                       tags={project.technologies}
                       image={project.image}
                       video={project.video}
+                      screenshots={
+                        "screenshots" in project
+                          ? (project as { screenshots: readonly string[] })
+                              .screenshots
+                          : undefined
+                      }
                       links={project.links}
                     />
                   </BlurFade>

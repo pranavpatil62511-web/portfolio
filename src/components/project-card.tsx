@@ -21,6 +21,7 @@ interface Props {
   link?: string;
   image?: string;
   video?: string;
+  screenshots?: readonly string[];
   links?: readonly {
     icon: React.ReactNode;
     type: string;
@@ -39,6 +40,7 @@ export function ProjectCard({
   link,
   image,
   video,
+  screenshots,
   links,
   className,
 }: Props) {
@@ -52,7 +54,24 @@ export function ProjectCard({
         href={href || "#"}
         className={cn("block cursor-pointer", className)}
       >
-        {video && (
+        {screenshots && screenshots.length > 0 ? (
+          <div className="flex h-56 w-full items-center justify-center gap-1.5 bg-gradient-to-b from-muted/40 to-muted px-2 py-3">
+            {screenshots.slice(0, 3).map((src, idx) => (
+              <div
+                key={idx}
+                className="relative h-full flex-1 overflow-hidden rounded-md shadow-sm ring-1 ring-black/5"
+              >
+                <Image
+                  src={src}
+                  alt={`${title} screenshot ${idx + 1}`}
+                  fill
+                  sizes="(max-width: 640px) 33vw, 130px"
+                  className="object-cover object-top"
+                />
+              </div>
+            ))}
+          </div>
+        ) : video ? (
           <video
             src={video}
             autoPlay
@@ -61,8 +80,7 @@ export function ProjectCard({
             playsInline
             className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
           />
-        )}
-        {image && (
+        ) : image ? (
           <Image
             src={image}
             alt={title}
@@ -70,7 +88,7 @@ export function ProjectCard({
             height={300}
             className="h-40 w-full overflow-hidden object-cover object-top"
           />
-        )}
+        ) : null}
       </Link>
       <CardHeader className="px-2">
         <div className="space-y-1">
